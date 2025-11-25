@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    /* Modules */
+    "module": "commonjs",                                /* Use CommonJS para Node.js padrão */
+    "moduleResolution": "node",                          /* Resolve módulos estilo Node */
+    "esModuleInterop": true,                             /* Permite importar pacotes CommonJS como ESM */
+    "verbatimModuleSyntax": false,                       /* <--- MUDE ISSO PARA FALSE */
+    "target": "es2016",
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
