@@ -1,3 +1,6 @@
+CREATE DATABASE IF NOT EXISTS biblioteca_db;
+USE biblioteca_db;
+
 CREATE TABLE usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(255) NOT NULL,
